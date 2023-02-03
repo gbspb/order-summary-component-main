@@ -10,7 +10,7 @@
     background-color: #fff;
     border-radius: 1.1rem;
   }
-  .main-illustration {
+  #main-illustration {
     border-radius: 1.1rem 1.1rem 0 0;
     width: 20rem;
   }
@@ -21,11 +21,11 @@
   p {
     font-size: 0.8rem;
   }
-  .details-box {
+  #details-box {
     margin: 1.5rem 2rem 2rem 2rem;
     padding: 1.4rem;
   }
-  .details-box .change {
+  #details-box .change {
     font-size: 0.6rem;
     font-weight: 700;
     text-decoration: underline;
@@ -46,7 +46,7 @@
   .info-plan-box p {
     margin: 0;
   }
-  button {
+  #btn {
     border-radius: 0.5rem;
     width: 16rem;
     height: 2.5rem;
