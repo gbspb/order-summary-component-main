@@ -23,6 +23,5 @@ Users should be able to:
 
 ## Author
 
-- GitHub - [Gabriela Sperb](https://github.com/gbspb)
 - Frontend Mentor - [@gbspb](https://www.frontendmentor.io/profile/gbspb)
 - Instagram - [@gbspb](https://www.instagram.com/gbspb)
