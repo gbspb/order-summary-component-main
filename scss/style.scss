@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import './media-query.scss';
+
+$Pale-blue: hsl(225, 100%, 94%);
+$Bright-blue: hsl(245, 75%, 52%);
+$Very-pale-blue: hsl(225, 100%, 98%);
+$Desaturated-blue: hsl(224, 23%, 55%);
+$Dark-blue: hsl(223, 47%, 23%);
+$Main-font: 'Red Hat Display', sans-serif;
+
+body {
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-color: $Pale-blue;
+  background-repeat: no-repeat;
+  font-family: $Main-font;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  border-radius: 1.3rem;
+  width: 28rem;
+  height: 43.5rem;
+  background-color: #fff;
+
+  box-shadow: 0 3rem 4rem hsla(245, 75%, 52%, 0.151);
+
+  .main-illustration {
+    border-radius: 1.3rem 1.3rem 0 0;
+    width: 28rem;
+  }
+
+  h1 {
+    color: $Dark-blue;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 2.1rem;
+    font-size: 1.75rem;
+  }
+
+  p {
+    color: $Desaturated-blue;
+    text-align: center;
+    margin: 1.2rem 3rem 0 3rem;
+    line-height: 1.5rem;
+  }
+
+  .details-box {
+    margin: 1.5rem 3rem 2rem 3rem;
+    border-radius: 0.8rem;
+    padding: 1.6rem;
+    background-color: $Very-pale-blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .change {
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: $Bright-blue;
+      text-decoration: underline;
+    }
+  }
+
+  .info-plan-box {
+    display: flex;
+    align-items: center;
+
+    img {
+      margin: 0 1.2rem 0 0;
+    }
+
+    .plan {
+      color: $Dark-blue;
+      font-weight: 900;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .order-box {
+    display: grid;
+    justify-content: center;
+
+    button {
+      color: $Very-pale-blue;
+      background-color: $Bright-blue;
+      border: none;
+      border-radius: 0.7rem;
+      width: 22.2rem;
+      height: 3rem;
+      font-family: $Main-font;
+      font-weight: 700;
+      box-shadow: 0 1rem 2rem 0 hsla(245, 75%, 52%, 0.284);
+    }
+
+    .cancel {
+      font-weight: 700;
+      margin-top: 2rem;
+    }
+  }
+}
+
+.attribution {
+  margin: 2rem;
+  font-size: 11px;
+  text-align: center;
+  color: $Desaturated-blue;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
